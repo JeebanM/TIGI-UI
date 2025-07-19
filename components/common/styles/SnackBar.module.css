@@ -1,0 +1,11 @@
+.snackBar {
+    border-radius: 14px;
+    padding: 14px 10px 14px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 4px;
+}

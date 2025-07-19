@@ -1,0 +1,29 @@
+.wrapper {
+  width: 80%;
+  margin-top: 16px;
+}
+
+.barBackground {
+  position: relative;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}

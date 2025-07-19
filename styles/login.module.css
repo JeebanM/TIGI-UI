@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #1a0933 0%, #2d0b5b 100%);
+  color: white;
+  text-align: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #d0c4e4;
+  max-width: 320px;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+.spacer {
+  height: 3rem;
+}
+
+.loginButton {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1.1rem 2.5rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(142, 45, 226, 0.3);
+  width: 100%;
+  max-width: 280px;
+}
+
+.loginButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(142, 45, 226, 0.4);
+}
+
+.loginButton:active {
+  transform: translateY(0);
+}
+
+.footer {
+  padding: 1.5rem;
+  color: #a094b7;
+  font-size: 0.9rem;
+}
+
+/* Tablet and Desktop Styles */
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    max-width: 420px;
+  }
+  
+  .loginButton {
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 4rem;
+  }
+  
+  .spacer {
+    height: 4rem;
+  }
+}

@@ -1,0 +1,13 @@
+/* Prevent unwanted scroll on mobile */
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {
+        overscroll-behavior: none;
+        touch-action: manipulation;
+        margin: 0 auto;
+        font-family: "Heebo", Arial, sans-serif;
+        height: 100%;
+        /* background: linear-gradient(180deg, #18181a 0%, #215ab5 100%); */
+    }
+}

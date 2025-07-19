@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  margin: 16px auto;
+  text-align: center;
+}
+
+.character {
+  display: block;
+  margin: auto;
+}
+
+.leftActions, .rightActions {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  top: 20%;
+}
+
+.leftActions {
+  left: -40px;
+}
+
+.rightActions {
+  right: -40px;
+}
+
+.actionBtn {
+  background-color: #4444ff;
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.locked {
+  background-color: #666;
+  color: #ccc;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
